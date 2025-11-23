@@ -1,13 +1,12 @@
 import React from 'react';
-import RegistroSuperAdmin from './components/RegistroSuperAdmin';
-// Ya no importamos 'Login' aquí, porque el nuevo diseño lo enlaza de otra forma
+import PublicHome from './components/PublicHome';
 import './App.css'; 
 
 function App() {
   return (
-    // El componente 'RegistroSuperAdmin' ahora maneja todo el layout
+    // Mostramos la página pública del torneo
     <div>
-      <RegistroSuperAdmin />
+      <PublicHome />
     </div>
   );
 }
